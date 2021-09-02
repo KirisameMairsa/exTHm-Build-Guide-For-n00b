@@ -59,7 +59,7 @@ sudo chmod a+x /bin/repo
 
 ```shell
 sudo pacman -S android-tools android-udev #安装来自官方源的软件包
-yay -S lineageos-devel                    #安装 AUR上的软件包
+yay -S lineageos-devel                    #安装 AUR 上的软件包
 ```
 
 ### 修改AOSP为国内源（可选）
