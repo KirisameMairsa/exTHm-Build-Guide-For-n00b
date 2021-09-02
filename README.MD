@@ -55,11 +55,11 @@ sudo chmod a+x /bin/repo
 
 #### Arch系（Archlinux/Manjaro等）
 
-```
-cd ~/
-git clone https://github.com/akhilnarang/scripts
-cd scripts
-./setup/arch-manjaro.sh
+先启用 [`[multilib]`](https://wiki.archlinux.org/title/Official_repositories#multilib)
+
+```shell
+sudo pacman -S android-tools android-udev #安装来自官方源的软件包
+yay -S lineageos-devel                    #安装 AUR 上的软件包
 ```
 
 ### 修改AOSP为国内源（可选）
